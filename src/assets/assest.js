@@ -16,6 +16,9 @@ import logo from './istockphoto-1004591262-612x612 1.png'
 import logo2 from './Link.png'
 
 
+export const foods = [burger1, burger2, burger3, burger4, burger5]
+
+
 export {
     background,
     background2,
