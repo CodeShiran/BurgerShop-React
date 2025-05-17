@@ -23,7 +23,7 @@ const Navbar = () => {
 
       {
         nav ? (
-            <div className={`md:hidden absolute top-0 left-0 w-[60%] bg-black/90 h-[100vh] z-50 transform transition-transform duration-300 ${nav ? "translate-x-0" : "-translate-x-full"}`}>
+            <div className={`md:hidden absolute top-0 left-0 w-[60%] bg-black/90 h-[100vh] z-90 transform transition-transform duration-300 ${nav ? "translate-x-0" : "-translate-x-full"}`}>
         <div className="max-w-[80%] text-white flex flex-row gap-10 items-center bg-black mt-15 px-8 py-4">
           <p>Menu</p>
           <div className="flex justify-end w-full gap-4">
