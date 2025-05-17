@@ -14,6 +14,7 @@ import mightMeat from './Figure → mighty-meaty.png.png'
 import overlay from './Image.png'
 import logo from './istockphoto-1004591262-612x612 1.png'
 import logo2 from './Link.png'
+import backgroundLayer from './BackgroundLayer.png'
 
 
 export const foods = [burger1, burger2, burger3, burger4, burger5]
@@ -30,5 +31,6 @@ export {
     mightMeat,
     overlay,
     logo,
-    logo2
+    logo2,
+    backgroundLayer
 }
