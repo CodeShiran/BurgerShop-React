@@ -3,7 +3,7 @@ import { background, mightMeat, overlay } from '../assets/assest.js'
 
 const Hero = () => {
   return (
-    <div className='h-[80vh] w-full bg-[#A5102E] relative overflow-hidden'>
+    <div className='md:h-[80vh] max-md:h-[100vh] w-full bg-[#A5102E] relative overflow-hidden'>
         <div className='absolute top-0 left-0 h-full w-full'>
             <img className='object-cover object-center h-full w-full' src={overlay} alt="" />
         </div>

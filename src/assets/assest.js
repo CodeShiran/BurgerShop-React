@@ -32,5 +32,5 @@ export {
     overlay,
     logo,
     logo2,
-    backgroundLayer
+    backgroundLayer,
 }
