@@ -1,7 +1,9 @@
 import React from "react";
 import { background, mightMeat, overlay } from "../assets/assest.js";
+import { motion } from "framer-motion"
 
 const Hero = () => {
+
   return (
     <div className="relative h-[80vh] max-md:h-[100vh] w-full bg-[#A5102E] overflow-hidden">
       <div className="absolute inset-0">
@@ -12,7 +14,10 @@ const Hero = () => {
         />
       </div>
 
-      <div className="absolute top-10 w-full text-center z-40 px-4">
+      <motion.div initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true, amount: 0.5 }} className="absolute top-10 w-full text-center z-40 px-4">
         <h1 className="text-4xl md:text-6xl text-white">
           mighty, meaty & <span className="font-bold">mmm...</span>
         </h1>
@@ -20,15 +25,21 @@ const Hero = () => {
           the cure to all hunger cravings is hidden inside the{" "}
           <span className="font-bold">Burger™</span>
         </p>
-      </div>
+      </motion.div>
 
-      <div className="absolute bottom-10 w-full text-center z-40 px-4">
+      <motion.div initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true, amount: 0.5 }} className="absolute bottom-10 w-full text-center z-40 px-4">
         <button className="hover:text-white duration-300 hover:bg-[#DC163E] px-6 py-3 rounded-2xl bg-[#A5102E] shadow-xl">
           BUILD YOUR BURGER
         </button>
-      </div>
+      </motion.div>
 
-      <div className="absolute inset-0 flex items-center justify-center z-30">
+      <motion.div  initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+      viewport={{ once: true }} className="absolute inset-0 flex items-center justify-center z-30">
         <div className="relative w-full flex items-center justify-center">
           <img
             src={background}
@@ -41,7 +52,7 @@ const Hero = () => {
             alt="burger"
           />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
