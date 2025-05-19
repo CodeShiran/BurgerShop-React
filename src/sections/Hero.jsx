@@ -34,7 +34,7 @@ const Hero = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.5 }}
-        className="absolute bottom-10 w-full text-center z-40 px-4"
+        className="absolute bottom-[150px] md:bottom-10 w-full text-center z-40 px-4"
       >
         <button className="hover:text-white duration-300 hover:bg-[#DC163E] px-6 py-3 rounded-2xl bg-[#A5102E] shadow-xl">
           BUILD YOUR BURGER
@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="relative w-full flex items-center justify-center">
           <img
             src={background}
-            className="w-[700px]  lg:w-[900px] max-w-full absolute"
+            className=" max-sm:hidden max-w-full object-center object-cover  absolute overflow-hidden"
             alt="background"
           />
           <img
