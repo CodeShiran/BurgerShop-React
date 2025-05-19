@@ -48,6 +48,9 @@ const Navbar = () => {
     };
   }, [nav]);
 
+
+  
+
   return (
     <div className="w-full  bg-[#A5102E] py-2 sticky top-0 z-50">
       {/*mobile menu*/}
