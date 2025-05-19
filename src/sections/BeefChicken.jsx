@@ -12,10 +12,13 @@ const BeefChicken = () => {
           alt=""
         />
       </div>
-      <motion.div initial={{ opacity: 0, y: 50 }}
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ once: true }} className="relative max-w-[750px] mx-auto z-20 text-center w-full flex flex-col justify-center items-center">
+        viewport={{ once: true }}
+        className="relative max-w-[750px] mx-auto z-20 text-center w-full flex flex-col justify-center items-center"
+      >
         <p className="font-bold text-[#A5102E]">
           THEY COME IN DIFFERENT SHAPES & SIZES
         </p>
@@ -30,10 +33,10 @@ const BeefChicken = () => {
         <div>
           <div className="max-w-[400px] w-full h-auto flex flex-col justify-center items-center mx-auto">
             <motion.img
-             initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-          viewport={{ once: true }}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+              viewport={{ once: true }}
               src={beefBurger}
               className="object-center object-cover"
               alt=""
@@ -45,10 +48,11 @@ const BeefChicken = () => {
         </div>
         <div>
           <div className="max-w-[400px] w-full h-auto flex flex-col justify-center items-center mx-auto">
-            <motion.img  initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-          viewport={{ once: true }}
+            <motion.img
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+              viewport={{ once: true }}
               src={chickenBeef}
               className="object-center object-cover"
               alt=""

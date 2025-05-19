@@ -5,7 +5,7 @@ const Card = ({name, img, description, price}) => {
   return (
     <div className='w-full sm:w-[350px] h-auto px-[25px] sm:px-6'>
         <div className='border-[#F1F1F1] border-2 h-auto mt-4 rounded-md w-full overflow-hidden relative'>
-            <img src={img} className='object-cover object-center w-full h-auto' alt="" />
+            <img src={img} className='object-cover object-center w-full h-auto hover:scale-105 transition-all' alt="" />
             <div className='absolute top-3 left-3 bg-[#4D2C21] px-2.5 py-1.5 rounded-md'>
                 <p className='text-[#FEDA5E] text-bold text-[10px]'>{price}</p>
             </div>
