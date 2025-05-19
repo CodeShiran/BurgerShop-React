@@ -12,7 +12,7 @@ const Favorite = () => {
             <img src={burgerLayer} className='object-cover object-center min-h-[200px]' alt="" />
         </div>
         <div className='mt-6'>
-            <button className='px-3.5 py-2 bg-[#A5102E] text-white rounded-4xl text-[15px]'>BUILD YOUR BURGER</button>
+            <button className='font-bold px-3.5 py-2 bg-[#A5102E] text-white rounded-4xl text-[15px]'>BUILD YOUR BURGER</button>
         </div>
     </div>
   )

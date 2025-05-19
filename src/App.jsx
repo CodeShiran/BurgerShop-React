@@ -5,6 +5,8 @@ import BeefChicken from './sections/BeefChicken'
 import BurgerHealth from './sections/BurgerHealth'
 import MenuList from './sections/MenuList'
 import Favorite from './sections/Favorite'
+import ChipsDrink from './sections/ChipsDrink'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <BurgerHealth />
       <MenuList />
       <Favorite />
+      <ChipsDrink />
+      <Footer />
     </div>
   )
 }
