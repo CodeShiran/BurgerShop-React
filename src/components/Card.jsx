@@ -1,5 +1,4 @@
 import React from 'react'
-import { burger1 } from '../assets/assest'
 import { CiHeart } from "react-icons/ci";
 
 const Card = ({name, img, description, price}) => {

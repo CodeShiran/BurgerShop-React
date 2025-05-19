@@ -4,6 +4,7 @@ import Hero from './sections/Hero'
 import BeefChicken from './sections/BeefChicken'
 import BurgerHealth from './sections/BurgerHealth'
 import MenuList from './sections/MenuList'
+import Favorite from './sections/Favorite'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <BeefChicken />
       <BurgerHealth />
       <MenuList />
+      <Favorite />
     </div>
   )
 }
