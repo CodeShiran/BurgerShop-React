@@ -113,7 +113,7 @@ const Navbar = () => {
         <div className="max-md:w-full max-md:flex justify-center items-center">
           <motion.img
             src={logo}
-            className="max-md:w-full max-md:flex justify-center items-center"
+            className=" max-md:flex justify-center items-center"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
