@@ -3,7 +3,7 @@ import { background, mightMeat, overlay } from "../assets/assest.js";
 
 const Hero = () => {
   return (
-    <div className="relative h-[80vh] w-full bg-[#A5102E] overflow-hidden">
+    <div className="relative h-[80vh] max-md:h-[100vh] w-full bg-[#A5102E] overflow-hidden">
       <div className="absolute inset-0">
         <img
           className="object-cover object-center h-full w-full"
@@ -12,7 +12,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="absolute top-10 w-full text-center z-50 px-4">
+      <div className="absolute top-10 w-full text-center z-40 px-4">
         <h1 className="text-4xl md:text-6xl text-white">
           mighty, meaty & <span className="font-bold">mmm...</span>
         </h1>
@@ -22,9 +22,9 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="absolute bottom-10 w-full text-center z-50 px-4">
+      <div className="absolute bottom-10 w-full text-center z-40 px-4">
         <button className="hover:text-white duration-300 hover:bg-[#DC163E] px-6 py-3 rounded-2xl bg-[#A5102E] shadow-xl">
-          BUILD YOUR BURGER™
+          BUILD YOUR BURGER
         </button>
       </div>
 
@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="relative w-full flex items-center justify-center">
           <img
             src={background}
-            className="w-[500px] md:w-[700px] lg:w-[900px] max-w-full absolute"
+            className="w-[700px]  lg:w-[900px] max-w-full absolute"
             alt="background"
           />
           <img
